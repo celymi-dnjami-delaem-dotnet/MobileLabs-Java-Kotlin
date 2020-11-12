@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LB-3</string>
+    <string name="mark">Note</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="internal">Internal Storage</string>
+    <string name="external">External Storage</string>
+    <string name="load">Load</string>
+</resources>
