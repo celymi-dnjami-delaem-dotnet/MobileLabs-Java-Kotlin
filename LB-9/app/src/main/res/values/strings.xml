@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LB-9</string>
+    <string name="openNav">Open Navbar</string>
+    <string name="closeNav">Close Navbar</string>
+</resources>
