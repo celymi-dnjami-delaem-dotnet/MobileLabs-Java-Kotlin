@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ContactHandler">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:id="@+id/nameEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameEditText"
+                android:layout_centerHorizontal="true"
+                android:text="Name"
+                android:textSize="20sp"
+        />
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:layout_below="@+id/nameEditText"
+                android:id="@+id/phoneEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phoneEditText"
+                android:layout_centerHorizontal="true"
+                android:text="Phone"
+                android:textSize="20sp"
+        />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phoneEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:id="@+id/actionButton"
+        />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
