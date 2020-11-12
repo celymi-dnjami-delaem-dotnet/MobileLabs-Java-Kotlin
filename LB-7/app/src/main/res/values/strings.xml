@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LB-7</string>
+
+    <string-array name="contactsSort">
+        <item name="Name">Name</item>
+        <item name="Phone">Phone</item>
+    </string-array>
+</resources>
