@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="add">Add contact</string>
+    <string name="contactCreationLabel">Create Contact</string>
+    <string name="createContactLabel">Create</string>
+    <string name="vkLink">https://vk.com/</string>
+    <string name="viewContactLabel">Contact Info</string>
+</resources>
